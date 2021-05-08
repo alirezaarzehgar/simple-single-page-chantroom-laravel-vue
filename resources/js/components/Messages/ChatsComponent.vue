@@ -66,7 +66,7 @@ export default {
         window.Echo.channel("chat.message").listen("Message", e => {
             this.messages.push({
                 message: e.message,
-                user_id: e.user_id
+                user_id: e.userId
             });
         });
     },

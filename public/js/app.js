@@ -1977,7 +1977,7 @@ __webpack_require__.r(__webpack_exports__);
     window.Echo.channel("chat.message").listen("Message", function (e) {
       _this3.messages.push({
         message: e.message,
-        user_id: e.user_id
+        user_id: e.userId
       });
     });
   },
