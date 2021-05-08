@@ -1,0 +1,28 @@
+html,
+body {
+  background-color: #292929 !important;
+}
+html .chats,
+body .chats {
+  background-color: #181818 !important;
+}
+html .text,
+body .text {
+  color: white !important;
+}
+html .card-header,
+body .card-header {
+  background-color: #222222 !important;
+}
+html .navbar,
+body .navbar {
+  background-color: #181818 !important;
+}
+html .chat_container,
+body .chat_container {
+  background-color: #3a3a3a !important;
+}
+html .Active,
+body .Active {
+  background-color: #3a3a3a !important;
+}

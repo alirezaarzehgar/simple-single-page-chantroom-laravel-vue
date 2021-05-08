@@ -1,0 +1,23 @@
+@media only screen and (max-width: 600px) {
+    .Active {
+        display: none;
+    }
+
+    .messages {
+        width: 100%;
+    }
+
+    .chats {
+        height: 300px !important;
+    }
+
+    .card-header-msg {
+        display: none;
+    }
+
+    body,
+    html {
+        padding: 0;
+        margin: 0;
+    }
+}

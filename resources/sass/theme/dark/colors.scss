@@ -1,0 +1,40 @@
+$primary: rgb(58, 58, 58);
+$secondary: rgb(24, 24, 24);
+
+$background_color: rgb(41, 41, 41);
+$text_color: rgb(255, 255, 255);
+
+$header_color: rgb(34, 34, 34);
+$active_users: $primary;
+$chat_container: $primary;
+$navbar_color: $secondary;
+$chat_screen: $secondary;
+
+html,
+body {
+    background-color: $background_color !important;
+
+    .chats {
+        background-color: $chat_screen !important;
+    }
+
+    .text {
+        color: $text_color !important;
+    }
+
+    .card-header {
+        background-color: $header_color !important;
+    }
+
+    .navbar {
+        background-color: $navbar_color !important;
+    }
+
+    .chat_container {
+        background-color: $chat_container !important;
+    }
+
+    .Active {
+        background-color: $active_users !important;
+    }
+}
